@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grdnt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/usrusr" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/nompage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+                        android:background="#00000000"
+                        android:hint="infos1"
+                        android:inputType="text"
+                        android:letterSpacing="0.1"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/nomownerpage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+                        android:background="#00000000"
+                        android:hint="infos2"
+                        android:inputType="text"
+                        android:letterSpacing="0.1"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/typepage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+                        android:background="#00000000"
+                        android:hint="infos3"
+                        android:inputType="text"
+                        android:letterSpacing="0.1"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/typepage4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+                        android:background="#00000000"
+                        android:hint="infos4"
+                        android:inputType="text"
+                        android:letterSpacing="0.1"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/pagetype5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+                        android:background="#00000000"
+                        android:hint="email"
+                        android:inputType="text"
+                        android:letterSpacing="0.1"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#4a5a71"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/abonnepage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="#00000000"
+                    android:hint="Non Abonne"
+                    android:inputType="text"
+                    android:letterSpacing="0.1"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#4a5a71"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/envoyermsgpage"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="40dp"
+                    android:background="#00000000"
+                    android:hint="envoyer un message"
+                    android:inputType="text"
+                    android:letterSpacing="0.1"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="16dp" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/message" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingLeft="60dp"
+                    android:paddingRight="60dp">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#4a5a71"></LinearLayout>
+
+            <Button
+                android:id="@+id/voirpostpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="#00000000"
+                android:hint="voire les post de cette page"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#000000"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#4a5a71"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="bottom"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/evenadd"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/add"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/messages"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/messages"
+                android:layout_marginLeft="100dp"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/evenaddse"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cherch"
+                android:layout_marginLeft="100dp"
+                android:layout_gravity="center"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="400dp"
+        android:gravity="center">
+
+    </LinearLayout>
+</RelativeLayout>
